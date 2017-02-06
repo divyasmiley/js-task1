@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Js task</title>
+</head>
+<body>
+    <p>Press these buttons</p>
+    <p id="htext"></p>
+    <button onclick="getText1()";>Red Text</button>
+     <button onclick="getText2()";>Blue Text</button>
+     <button onclick="getText3()";>Green Text</button>
+    <script type="text/javascript">
+ function getText1(){
+            var elem =  document.getElementById("htext");
+        elem.innerHTML ="<strong>hello </strong><i>world</i>";
+		elem.style.fontSize="50px";
+		elem.style.color="red";
+        }
+        function getText2(){
+            var elem =  document.getElementById("htext");
+        elem.innerHTML ="<strong>hello </strong><i>world</i>";
+		elem.style.fontSize="50px";
+		elem.style.color="blue";
+       }
+        function getText3(){
+            var elem =  document.getElementById("htext");
+        elem.innerHTML ="<strong>hello </strong><i>world</i>";
+        elem.style.fontSize="50px";
+		elem.style.color="green";
+		}
+    </script>
+</body>
+</html>
